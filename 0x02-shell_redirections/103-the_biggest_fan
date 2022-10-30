@@ -1,2 +1,20 @@
 #!/bin/bash
+<<<<<<< HEAD
 tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -11 | rev | cut -d   -f -1 | rev
+=======
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -11 | rev | cut -d ' ' -f -1 | rev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 6a91b1ab5f88a0812a1831ba0fc64a4c777f6f7b
